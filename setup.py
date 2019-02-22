@@ -10,7 +10,7 @@ except ImportError:
     import pkg_resources
     easy_install.main(['fastentrypoints'])
     pkg_resources.require('fastentrypoints')
-    import fastentrypoint
+    import fastentrypoints
 
 import sys
 try:
