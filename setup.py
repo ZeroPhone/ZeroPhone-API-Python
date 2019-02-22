@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-version = "0.0.3"
+version = "0.0.4"
 
 try:
     import fastentrypoints
@@ -31,8 +31,7 @@ setup(
     author='CRImier',
     author_email='crimier@yandex.ru',
     install_requires=[
-        jsonrpclib,
-        "zerophone_api_daemon"
+        jsonrpclib
     ],
     url = 'https://github.com/ZeroPhone/Zerophone-API-Python',
     download_url = 'https://github.com/ZeroPhone/zerophone-api-py/archive/{}.tar.gz'.format(version),
